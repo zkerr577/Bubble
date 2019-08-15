@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+html,
+body {
+    font-family: "Roboto Condensed";
+    font-size: 14pt;
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    min-height: 100%;
+    width: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* Header */
+
+header {
+    height: 3rem;
+    width: 100%;
+    font-family: "Permanent Marker";
+    margin-bottom: 50px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: inline-flex;
+    left: 5px;
+    position: relative;
+}
+
+.button {
+    padding: 1rem 15px;
+}
+
+.first {
+    padding-left: 15px;
+    color: white;
+    background-color: #039;
+}
+
+.last {
+    border-right: none;
+}
+
+.drop {
+    position: relative;
+}
+
+.mydrop {
+    display: none;
+    position: absolute;
+}
+
+
+
+
+
+/* Picture Frame */
+
+.threePicFrame {
+    height: 25%;
+    width: 90%;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+}
+
+.threePicFrame img {
+    padding: 0 20px;
+    max-width: 25%;
+}
+
+
+
+
+
+.left {
+    text-align: left;
+    position: relative;
+    left: 5%;
+    width: 70%;
+    margin: 50px 0;
+}
+
+.right {
+    text-align: right;
+    position: relative;
+    left: 25%;
+    width: 70%;
+    margin: 50px 0;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.space {
+    margin: 15px auto;
+}
+
+.bigButton {
+    font-family: "Roboto Condensed";
+    font-size: 14pt;
+    text-align: center;
+    padding: 20px 7px;
+    color: #039;
+    background-color: white;
+    border: none;
+}
+
+footer {
+    height: 100px;
+    position: relative;
+    margin-top: -100px;
+    background-color: #d9d9d9;
+    clear: both;
+    color: #039;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+}
