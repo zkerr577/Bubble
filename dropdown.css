@@ -1,0 +1,31 @@
+.first {
+    padding-left: 15px;
+    color: white;
+    background-color: #039;
+}
+
+.last {
+    border-right: none;
+}
+
+.drop {
+    position: relative;
+}
+
+.mydrop {
+    display: none;
+    position: absolute;
+    width: 7vw;
+}
+
+.dropbtn {
+    position: relative;
+    top: 1rem;
+}
+
+.drop:hover .mydrop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 3rem;
+}

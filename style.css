@@ -35,7 +35,7 @@ a {
 
 
 
-/* Header */
+/* Header and Footer */
 
 header {
     height: 3rem;
@@ -51,86 +51,6 @@ header {
     position: relative;
 }
 
-.button {
-    padding: 1rem 15px;
-}
-
-.first {
-    padding-left: 15px;
-    color: white;
-    background-color: #039;
-}
-
-.last {
-    border-right: none;
-}
-
-.drop {
-    position: relative;
-}
-
-.mydrop {
-    display: none;
-    position: absolute;
-}
-
-
-
-
-
-/* Picture Frame */
-
-.threePicFrame {
-    height: 25%;
-    width: 90%;
-    display: -webkit-flex;
-    -webkit-flex-direction: row;
-}
-
-.threePicFrame img {
-    padding: 0 20px;
-    max-width: 25%;
-}
-
-
-
-
-
-.left {
-    text-align: left;
-    position: relative;
-    left: 5%;
-    width: 70%;
-    margin: 50px 0;
-}
-
-.right {
-    text-align: right;
-    position: relative;
-    left: 25%;
-    width: 70%;
-    margin: 50px 0;
-}
-
-.center {
-    width: 100%;
-    text-align: center;
-}
-
-.space {
-    margin: 15px auto;
-}
-
-.bigButton {
-    font-family: "Roboto Condensed";
-    font-size: 14pt;
-    text-align: center;
-    padding: 20px 7px;
-    color: #039;
-    background-color: white;
-    border: none;
-}
-
 footer {
     height: 100px;
     position: relative;
@@ -140,4 +60,67 @@ footer {
     color: #039;
     display: -webkit-flex;
     -webkit-flex-direction: row;
+}
+
+
+
+
+
+/* Text and Buttons */
+
+.left {
+    text-align: left;
+    position: relative;
+    left: 15%;
+    width: 50%;
+    margin: 50px 0;
+    border-left: 1px solid black;
+    padding-left: 1%;
+}
+
+.right {
+    text-align: right;
+    position: relative;
+    left: 35%;
+    width: 50%;
+    margin: 50px 0;
+    border-right: 1px solid black;
+    padding-right: 1%;
+}
+
+.center {
+    width: 70%;
+    text-align: center;
+}
+
+.space {
+    margin: 15px auto;
+}
+
+.button {
+    padding: 1rem 15px;
+}
+
+.bigButton {
+    font-family: "Permanent Marker";
+    font-size: 18pt;
+    text-align: center;
+    color: #039;
+    padding: 20px 7px;
+}
+
+.bigSpace {
+    margin: 50px auto;
+}
+
+.bigTitle {
+    font-family: "Permanent Marker";
+    color: #039;
+    margin-bottom: 15px;
+}
+
+.divTitle {
+    padding-bottom: 1rem;
+    font-family: "Permanent Marker";
+    color: #039;
 }
