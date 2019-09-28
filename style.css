@@ -97,6 +97,15 @@ footer {
     margin: 15px auto;
 }
 
+.inLink {
+    color: #039;
+    font-weight: 700;
+}
+
+.littleLink {
+    font-size: .85rem;
+}
+
 .button {
     padding: 1rem 15px;
 }
