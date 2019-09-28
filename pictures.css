@@ -17,12 +17,12 @@
     background-size: cover;
     width: inherit;
     height: inherit;
+    background-blend-mode: overlay;
+    transition: background-color .5s;
 }
 
 .one:hover {
-    transition-duration: .5s;
     background-color: #d9d9d9;
-    background-blend-mode: overlay;
 }
 
 .two {
@@ -30,12 +30,12 @@
     background-size: cover;
     width: inherit;
     height: inherit;
+    background-blend-mode: overlay;
+    transition: background-color .5s;
 }
 
 .two:hover {
-    transition-duration: .5s;
     background-color: #d9d9d9;
-    background-blend-mode: overlay;
 }
 
 .three {
@@ -43,12 +43,12 @@
     background-size: cover;
     width: inherit;
     height: inherit;
+    background-blend-mode: overlay;
+    transition: background-color .5s;
 }
 
 .three:hover {
-    transition-duration: .5s;
     background-color: #d9d9d9;
-    background-blend-mode: overlay;
 }
 
 .centerText{
@@ -57,6 +57,7 @@
     text-align: center;
     align-items: center;
     color: transparent;
+    transition: color .5s;
 }
 
 .centerText p {
@@ -64,6 +65,5 @@
 }
 
 .centerText:hover {
-    transition-duration: .5s;
     color: black;
 }
