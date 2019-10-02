@@ -1,0 +1,90 @@
+#imgtabs {
+    background-color: #039;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tab {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    transition: all ease-in-out 500ms;
+}
+
+#ban1 {
+    background-image: url("imgs/homeless1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ban2 {
+    background-image: url("imgs/homeless2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ban3 {
+    background-image: url("imgs/homeless3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tab h3 {
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
+    color: white;
+}
+
+.imgbtn {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    z-index: 1200;
+    cursor: pointer;
+    color: transparent;
+    transition: color .5s;
+}
+
+.prvbtn {
+    left: 5px;
+    text-align: right;
+}
+
+.nxtbtn {
+    right: 5px;
+    text-align: left;
+}
+
+.show {
+    display: block;
+}
+
+
+
+
+/* Desktop */
+
+@media only screen and (min-width: 800px) {
+    #imgtabs {
+        height: 70vh;
+        width: 100%;
+        top: 10px;
+    }
+
+    .imgbtn {
+        font-size: 24px;
+        padding: 4px;
+    }
+
+    .imgbtn:hover {
+        color: black;
+    }
+}

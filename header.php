@@ -4,7 +4,7 @@
         <a href="index.php" class="first button">Hand Up</a>
 
         <div class="drop">
-            <a href="#" class="button dropbtn">About</a>
+            <a href="about-us.php" class="button dropbtn">About</a>
 
             <div class="mydrop">
                 <a href="#">Our Mission</a>

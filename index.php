@@ -3,102 +3,29 @@
 
 <?php define("TITLE", "First Concept");
     define("DESCRIPTION", "Over 500,000 Americans live in the street. Let's change this together.");
-    include("includes/head.php");
+    include 'includes/head.php';
     ?>
-
-<!--<head>
-    <title>Home Concept One</title>
-
-    <meta name="description" content="There are over a half a million homeless Americans. Let's face this crisis today.">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="dropdown.css" type="text/css">
-    <link rel="stylesheet" href="pictures.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-</head>-->
 
 <body>
     <div id="container">
         <div id="main">
-           <?php include("includes/header.php"); ?>
-            <!--<header>
+            <?php include 'includes/header.php'; ?>
 
-                <div class="navbar">
-                    <a href="index.php" class="first button">Hand Up</a>
+            <?php include 'includes/slideshow.php'; ?>
 
-                    <div class="drop">
-                        <a href="#" class="button dropbtn">About</a>
-
-                        <div class="mydrop">
-                            <a href="#">Our Mission</a>
-                            <a href="#">How We Do It</a>
-                            <a href="#">Who We Help</a>
-                            <a href="about-us.php">Us</a>
-                        </div>
-                    </div>
-
-                    <div class="drop">
-                        <a href="#" class="button dropbtn">Opportunities</a>
-
-                        <div class="mydrop">
-                            <a href="#">To Help Them</a>
-                            <a href="#">To Help Us</a>
-                        </div>
-                    </div>
-
-                    <a href="#" class="last button">Successes</a>
-                </div>
-
-            </header>-->
-
-            <div class="center space">
+            <div class="center bigSpace">
 
                 <h1 class="bigTitle">Our Fellow Americans</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum. A cras semper auctor neque vitae. Viverra nam libero justo laoreet sit amet cursus. Congue quisque egestas diam in arcu cursus euismod. Ultricies mi quis hendrerit dolor magna eget est. Et ultrices neque ornare aenean euismod elementum nisi quis.</p>
-
-            </div>
-
-            <div class="threePicFrame">
-                <div class="image">
-                    <div class="one">
-                        <div class="centerText">
-                            <p>According to 2018 HUD report, the total US homeless population is just above 550,000.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image">
-                    <div class="two">
-                        <div class="centerText">
-                            <p>The city of Los Angeles alone has a homeless population well exceeding 50,000.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image">
-                    <div class="three">
-                        <div class="centerText">
-                            <p>Of the total homeless in America, 47% are African-American. About 35% of them are unsheltered.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="center space">
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum. A cras semper auctor neque vitae. Viverra nam libero justo laoreet sit amet cursus. Congue quisque egestas diam in arcu cursus euismod. Ultricies mi quis hendrerit dolor magna eget est. Et ultrices neque ornare aenean euismod elementum nisi quis.</p>
+                <p>There are many challenges facing our country today and you don't always have to look far for evidence.</p>
 
                 <div class="bigSpace">
 
                     <a href="#" class="bigButton bigSpace">Change A Life</a>
 
                 </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum. A cras semper auctor neque vitae. Viverra nam libero justo laoreet sit amet cursus. Congue quisque egestas diam in arcu cursus euismod. Ultricies mi quis hendrerit dolor magna eget est. Et ultrices neque ornare aenean euismod elementum nisi quis.</p>
 
             </div>
 
@@ -153,38 +80,10 @@
         </div>
     </div>
 
-
-    <footer>
-        <div>
-            <ul>
-                <h4 style="text-decoration: underline">Our Project</h4>
-                <li><a href="#" class="littleLink">Who They Are</a></li>
-                <li><a href="#" class="littleLink">Who We Are</a></li>
-                <li><a href="#" class="littleLink">What and How</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <ul>
-                <h4 style="text-decoration: underline">What We're Doing</h4>
-                <li><a href="#" class="littleLink">Where We Help</a></li>
-                <li><a href="#" class="littleLink">Who is Helping</a></li>
-                <li><a href="#" class="littleLink">Who We've Helped</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <ul>
-                <h4 style="text-decoration: underline">Legal</h4>
-                <li><a href="#" class="littleLink">501(c)(3)</a></li>
-                <li><a href="#" class="littleLink">Privacy</a></li>
-                <li><a href="#" class="littleLink">Protections</a></li>
-            </ul>
-        </div>
-    </footer>
-
+    <?php include("includes/footer.php"); ?>
 
     <script src="drop.js"></script>
+    <script src="banner.js"></script>
 </body>
 
 </html>
