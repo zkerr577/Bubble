@@ -18,7 +18,7 @@ body {
 
 #main {
     overflow: auto;
-    padding-bottom: 100px;
+    padding-bottom: 125px;
 }
 
 ol,
@@ -46,14 +46,13 @@ header {
 .navbar {
     list-style-type: none;
     display: inline-flex;
-    left: 5px;
     position: relative;
 }
 
 footer {
-    height: 100px;
+    height: 125px;
     position: relative;
-    margin-top: -100px;
+    margin-top: -125px;
     background-color: #d9d9d9;
     clear: both;
     color: #039;
@@ -65,12 +64,12 @@ footer {
 
 
 
-/* Text and Buttons */
+/* Text */
 
 .left {
     text-align: left;
     position: relative;
-    left: 15%;
+    left: 8%;
     width: 50%;
     margin: 50px 0;
     border-left: 1px solid black;
@@ -92,9 +91,25 @@ footer {
     text-align: center;
 }
 
+
+
+
+
+/* Spacing */
+
 .space {
     margin: 15px auto;
 }
+
+.bigSpace {
+    margin: 50px auto;
+}
+
+
+
+
+
+/* Links */
 
 .inLink {
     color: #039;
@@ -105,6 +120,12 @@ footer {
     font-size: .85rem;
 }
 
+
+
+
+
+/* Buttons */
+
 .button {
     padding: 1rem 15px;
 }
@@ -114,12 +135,14 @@ footer {
     font-size: 18pt;
     text-align: center;
     color: #039;
-    padding: 20px 7px;
+    padding: 20px 7px 20px 0;
 }
 
-.bigSpace {
-    margin: 50px auto;
-}
+
+
+
+
+/* Titles */
 
 .bigTitle {
     font-family: "Permanent Marker";
@@ -131,4 +154,20 @@ footer {
     padding-bottom: 1rem;
     font-family: "Permanent Marker";
     color: #039;
+}
+
+
+
+
+
+/* Pictures */
+
+#drew {
+    background-color: #d9d9d9;
+    width: 30vw;
+}
+
+#zak {
+    background-color: #d9d9d9;
+    width: 30vw;
 }

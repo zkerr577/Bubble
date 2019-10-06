@@ -9,6 +9,7 @@
 <body>
     <div id="container">
         <div id="main">
+           
             <?php include 'includes/header.php'; ?>
 
             <?php include 'includes/slideshow.php'; ?>
