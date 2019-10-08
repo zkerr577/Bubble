@@ -1,29 +1,59 @@
 <header>
 
     <div class="navbar">
-        <a href="index.php" class="first button">Hand Up</a>
+        <a href="index.php" class="first navButton">Hand Up</a>
 
         <div class="drop">
-            <a href="about-us.php" class="button dropbtn">About</a>
+            <a href="#" class="navButton dropbtn">Join Us</a>
 
             <div class="mydrop">
-                <a href="#">Our Mission</a>
-                <a href="#">How We Do It</a>
-                <a href="#">Who We Help</a>
+                <ul>
+                    <a href="#">Volunteer</a>
+                    <a href="#">Donate</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="drop">
+            <a href="about-us.php" class="navButton dropbtn">About</a>
+
+            <div class="mydrop">
+                <a href="#">Them</a>
+                <a href="#">What We Do</a>
+                <a href="#">Where We Are</a>
                 <a href="about-us.php">Us</a>
             </div>
         </div>
 
         <div class="drop">
-            <a href="#" class="button dropbtn">Opportunities</a>
+            <a href="#" class="navButton dropbtn">Partners</a>
 
             <div class="mydrop">
-                <a href="#">To Help Them</a>
-                <a href="#">To Help Us</a>
+                <a href="#">Who Helps Us</a>
+                <a href="#">Where They Are</a>
+                <a href="#">Partner Up</a>
             </div>
         </div>
 
-        <a href="#" class="last button">Successes</a>
+        <div class="drop">
+            <a href="#" class="navButton dropbtn">Successes</a>
+
+            <div class="mydrop">
+                <a href="#">The People</a>
+                <a href="#">The Places</a>
+                <a href="#">The Stats</a>
+            </div>
+        </div>
+
+        <div class="drop">
+            <a href="#" class="navButton dropbtn">Legal</a>
+
+            <div class="mydrop">
+                <a href="#">501(c)(3) Status</a>
+                <a href="#">Disclosures</a>
+            </div>
+        </div>
+
     </div>
 
 </header>

@@ -43,12 +43,6 @@ header {
     font-family: "Permanent Marker";
 }
 
-.navbar {
-    list-style-type: none;
-    display: inline-flex;
-    position: relative;
-}
-
 footer {
     height: 125px;
     position: relative;

@@ -1,31 +1,64 @@
+/* Leave .navbar alone, but basically start over everywhere else.
+ * Have .mydrop up and behind .navbar and transition down on hover.
+ * Links text should be aligned to the left, fade to #039, and 
+ * text should be on one line with small padding top and bottom.
+ * Make buttons uniform widths and hide drop down.
+ * Look at effects of inline-flex for .navbar.
+ * */
+
+.navbar {
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+}
+
 .first {
     color: white;
     background-color: #039;
 }
 
-.last {
-    border-right: none;
+.navButton {
+    padding: 1rem 15px;
+    border-right: 1px solid black;
 }
 
 .drop {
     position: relative;
 }
 
-.mydrop {
-    display: none;
-    position: absolute;
-    width: 7vw;
-    text-align: left;
-}
-
 .dropbtn {
     position: relative;
     top: 1rem;
+    z-index: 1550;
+}
+
+.mydrop {
+    position: absolute;
+    width: auto;
+    z-index: 1500;
+    list-style: none;
+    top: -5rem;
+    transition: all 400ms ease-in;
+}
+
+.mydrop a {
+    text-align: left;
+    transition: all 400ms ease-in-out;
+}
+
+.mydrop a:hover {
+    color: #039;
 }
 
 .drop:hover .mydrop {
     display: flex;
     flex-direction: column;
-    text-align: start;
+    justify-content: flex-start;
     top: 3rem;
+    background-color: white;
+    box-shadow: -6px 3px 5px 2px hsla(0, 0%, 0%, .4);
+}
+
+.last {
+    border-right: none !important;
 }
