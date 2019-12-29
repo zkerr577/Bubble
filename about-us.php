@@ -22,7 +22,7 @@
             <div class="left">
 
                 <div>
-                    <img src="imgs/Drew.png" alt="Super Lawyer Man Man Man Man" id="drew">
+                    <img src="imgs/Drew.jpg" alt="" id="drew">
                 </div>
 
                 <h3 class="bigSpace">Drew Kerr</h3>
@@ -36,7 +36,7 @@
             <div class="right">
 
                 <div>
-                    <img src="imgs/Zak.jpg" alt="'Splody boi" id="zak">
+                    <img src="imgs/Zak.jpg" alt="" id="zak">
                 </div>
 
                 <h3 class="bigSpace">Zakary Kerr</h3>

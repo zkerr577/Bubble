@@ -165,3 +165,11 @@ footer {
     background-color: #d9d9d9;
     width: 30vw;
 }
+
+.placehold {
+    height: 320px;
+    width: 480px;
+    margin: 40px auto;
+    background-color: gray;
+    color: white;
+}

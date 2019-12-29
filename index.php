@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-<?php define("TITLE", "First Concept");
-    define("DESCRIPTION", "Over 500,000 Americans live in the street. Let's change this together.");
+<?php define("TITLE", "Hand Up");
+    define("DESCRIPTION", "Over 500,000 Americans live in the street. We're working to lower this, one American at a time. Get to know us and what we do and pitch in to change a life today. Let's make change together.");
     include 'includes/head.php';
     ?>
 
@@ -26,7 +26,7 @@
 
                 </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum. A cras semper auctor neque vitae. Viverra nam libero justo laoreet sit amet cursus. Congue quisque egestas diam in arcu cursus euismod. Ultricies mi quis hendrerit dolor magna eget est. Et ultrices neque ornare aenean euismod elementum nisi quis.</p>
+                <!-- I wanted an additional paragraph here to kind of open up about the problem and what we do, but it seems out of place here and redundant because of the text below. -->
 
             </div>
 
@@ -58,7 +58,7 @@
 
                 <h3 class="divTitle">This One Is Different</h3>
 
-                <p>We're not just another charity. Hand Up was started by Drew Kerr while attending Duquesne Law School and his brother Zakary while he was serving as an active duty Marine EOD Technician. 100% of all funds recieved go towards our goal, helping those who need it the most. Our all work force is all volunteer from the top down and we are proud of it. It's one of two things that allows us to do as much as we do. The other is you.</p>
+                <p>We're not just another charity. Hand Up was started by Drew Kerr while attending Duquesne Law School and his brother Zakary while he was serving as an active duty Marine EOD Technician. 100% of all funds recieved go towards our goal, helping those who need it the most. All our work force is all volunteer from the top down and we are proud of it.</p>
 
                 <div class="bigSpace">
                     <p>Want to learn more about us? <a href="#" class="inLink">Check us out.</a></p>
